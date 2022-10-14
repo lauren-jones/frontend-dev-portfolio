@@ -1,0 +1,39 @@
+.Intro {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.Intro h4 {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.Intro h2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 0.25em;
+}
+
+.Intro h3 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 0.25em;
+  color: var(--secondary-color);
+}
+
+.Intro p {
+  max-width: 600px;
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+  color: var(--secondary-color);
+  line-height: 1.55em;
+  font-weight: 300;
+  padding-bottom: 30px;
+}

@@ -2,13 +2,14 @@
   --primary-font: "Lora", serif;
   --secondary-font: "Noto Sans JP", sans-serif;
   --background-color: #e2dce2;
-  --primary-color: #1a1a1a;
-  --button-color: #fdeff5;
-  --hover-color: #68422d;
+  --primary-color: #ccd6f6;
+  --secondary-color: #8892af;
+  --accent-color: #64ffda;
+  --hover-color: #15303f;
 }
 
 html {
-  background: #eae8e2;
+  background: #0b192e;
   color: var(--primary-color);
 }
 

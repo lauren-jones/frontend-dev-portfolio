@@ -1,9 +1,10 @@
 import React from "react";
 import "./header.css";
+import Button from "./Button";
 
 export default function Header() {
   return (
-    <div className="Header">
+    <header className="Header">
       <div className="Header-logo">Lauren</div>
       <div className="Header-menu">
         <ul>
@@ -12,8 +13,8 @@ export default function Header() {
           <li>Work</li>
           <li>Contact</li>
         </ul>
-        <button>Resume</button>
+        <Button text="Resume" size="small" />
       </div>
-    </div>
+    </header>
   );
 }

@@ -1,0 +1,22 @@
+.About {
+  max-width: 800px;
+  margin: 300px auto;
+  display: flex;
+  align-items: center;
+}
+
+.About-text {
+  grid-area: about-text;
+  max-width: 65%;
+  padding-right: 10px;
+}
+
+.About-image {
+  grid-area: about-image;
+}
+
+.About-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}

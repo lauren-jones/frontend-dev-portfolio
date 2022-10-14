@@ -1,0 +1,25 @@
+.Button-default {
+  border: 1px solid var(--accent-color);
+  padding: 20px 30px;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+  letter-spacing: 0.05em;
+}
+
+.Button-small {
+  border: 1px solid var(--accent-color);
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+  letter-spacing: 0.05em;
+  font-size: 0.65rem;
+}
+
+button:hover {
+  background: var(--hover-color);
+  cursor: pointer;
+}
